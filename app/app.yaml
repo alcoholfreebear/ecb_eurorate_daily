@@ -1,0 +1,6 @@
+service: eurorate
+runtime: python37
+instance_class: F4
+handlers:
+- url: /eurorate/etl
+  script: auto

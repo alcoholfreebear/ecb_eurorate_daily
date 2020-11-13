@@ -1,0 +1,15 @@
+cron:
+- description: "Snapshot Chargebee"
+  target: cron
+  url: /cron/gae-chargebee
+  schedule: every day 05:00
+- description: "eurorate table daily table update job"
+  target: eurorate
+  url: /eurorate/etl
+  schedule: every day 05:00
+- description: " Seed eurorate table"
+  target: eurorate
+  url: /eurorate/seed
+  schedule: every 99999 hours
+
+

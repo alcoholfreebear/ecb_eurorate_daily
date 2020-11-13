@@ -1,0 +1,7 @@
+numpy==1.16.2
+pandas==0.24
+pandas-gbq==0.10.0
+pyarrow==0.12
+Flask==1.0
+google-cloud-logging==1.10.0
+google-cloud-bigquery==1.10.0
